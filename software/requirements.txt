@@ -1,0 +1,7 @@
+# On Raspberry Pi OS (Bookworm), install the camera library from apt, not pip:
+#   sudo apt install python3-picamera2 python3-opencv
+# and create the virtual environment with:  python3 -m venv --system-site-packages .venv
+numpy
+opencv-python
+gpiozero
+lgpio
